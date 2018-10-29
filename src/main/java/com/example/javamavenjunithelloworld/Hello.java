@@ -10,6 +10,8 @@ public class Hello {
     static final String HELLO = "Hello!";
     
     private static final String secret = "secret";
+    
+    private static final String secret2 = "string";
 
     public static final int MAXIMUM_AMOUNT_OF_TIMES = 20;
 
@@ -37,7 +39,7 @@ public class Hello {
      * @param printer PrintStream to write output to.
      */
     public void sayHello(PrintStream printer) {
-        if (secret.equals("string")) {
+        if (secret.equals(secret2)) {
             int a = 1;
         }
         for (short i = 0; i < times; i++) {
