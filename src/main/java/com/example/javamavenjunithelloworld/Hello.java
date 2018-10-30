@@ -39,7 +39,7 @@ public class Hello {
      * @param printer PrintStream to write output to.
      */
     public void sayHello(PrintStream printer) {
-        if (secret.equals(secret2)) {
+        if (secretKey1.equals(secretKey2)) {
             int a = 1;
         }
         for (short i = 0; i < times; i++) {
