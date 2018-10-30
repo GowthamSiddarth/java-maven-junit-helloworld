@@ -9,9 +9,9 @@ public class Hello {
 
     static final String HELLO = "Hello!";
     
-    private static final String secret = "secret";
+    private static final String secretKey1 = "secretValue1";
     
-    private static final String secret2 = "string";
+    private static final String secretKey2 = "secretValue2";
 
     public static final int MAXIMUM_AMOUNT_OF_TIMES = 20;
 
